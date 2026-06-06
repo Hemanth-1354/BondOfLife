@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mail_1780710639_4f75de60",
+    "timestamp": "2026-06-06 07:20:39",
+    "to": "\\x770d12@example.com",
+    "subject": "URGENT: Blood Donation Needed - BondOfLife",
+    "body_html": "\n            <div style='font-family:Arial,sans-serif;padding:20px;border:1px solid #ddd;'>\n                <h2 style='color:#b30000;'>URGENT: Blood Donation Needed - BondOfLife</h2>\n                <p><strong>Dear Donor,</strong></p>\n                <p>A Thalassemia patient needs a matching blood transfusion of group **O Positive** near Hyderabad.<br></p>\n                <p>Quantity Required: 1.0 Unit(s)</p>\n                <p>Priority: Emergency</p>\n                <p>Please click one of the actions below to respond immediately:</p>\n                \n            <div style='margin-top:20px;'>\n                <a href='http://localhost:8000/api/outreach/respond?request_id=req_1780710639&donor_id=\\x770d128e07711da11a3dd0e1b2bf0a7c9834f044a69f8874b632d7bb67a59713&action=accept' style='background:#b30000;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;margin-right:10px;'>ACCEPT</a>\n                <a href='http://localhost:8000/api/outreach/respond?request_id=req_1780710639&donor_id=\\x770d128e07711da11a3dd0e1b2bf0a7c9834f044a69f8874b632d7bb67a59713&action=decline' style='background:#555;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;'>DECLINE</a>\n            </div>\n        \n                <p style='margin-top:20px;font-size:12px;color:#777;'>BondOfLife DPDPA Secure Outreach. You can opt out at any time.</p>\n            </div>\n        ",
+    "body_text": "URGENT: Blood Donation Needed - BondOfLife",
+    "status": "SENT"
+  },
+  {
+    "id": "mail_1780710639_9aee6d80",
+    "timestamp": "2026-06-06 07:20:39",
+    "to": "\\xc5f025@example.com",
+    "subject": "URGENT: Blood Donation Needed - BondOfLife",
+    "body_html": "\n            <div style='font-family:Arial,sans-serif;padding:20px;border:1px solid #ddd;'>\n                <h2 style='color:#b30000;'>URGENT: Blood Donation Needed - BondOfLife</h2>\n                <p><strong>Dear Donor,</strong></p>\n                <p>A Thalassemia patient needs a matching blood transfusion of group **O Positive** near Hyderabad.<br></p>\n                <p>Quantity Required: 1.0 Unit(s)</p>\n                <p>Priority: Emergency</p>\n                <p>Please click one of the actions below to respond immediately:</p>\n                \n            <div style='margin-top:20px;'>\n                <a href='http://localhost:8000/api/outreach/respond?request_id=req_1780710639&donor_id=\\xc5f025efdd0788657bf1374cf2270c44f7de5492ecc09eef98d3d53e9d9d419c&action=accept' style='background:#b30000;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;margin-right:10px;'>ACCEPT</a>\n                <a href='http://localhost:8000/api/outreach/respond?request_id=req_1780710639&donor_id=\\xc5f025efdd0788657bf1374cf2270c44f7de5492ecc09eef98d3d53e9d9d419c&action=decline' style='background:#555;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;'>DECLINE</a>\n            </div>\n        \n                <p style='margin-top:20px;font-size:12px;color:#777;'>BondOfLife DPDPA Secure Outreach. You can opt out at any time.</p>\n            </div>\n        ",
+    "body_text": "URGENT: Blood Donation Needed - BondOfLife",
+    "status": "SENT"
+  },
+  {
+    "id": "mail_1780710639_54dbeaf9",
+    "timestamp": "2026-06-06 07:20:39",
+    "to": "\\x1d5644@example.com",
+    "subject": "URGENT: Blood Donation Needed - BondOfLife",
+    "body_html": "\n            <div style='font-family:Arial,sans-serif;padding:20px;border:1px solid #ddd;'>\n                <h2 style='color:#b30000;'>URGENT: Blood Donation Needed - BondOfLife</h2>\n                <p><strong>Dear Donor,</strong></p>\n                <p>A Thalassemia patient needs a matching blood transfusion of group **O Positive** near Hyderabad.<br></p>\n                <p>Quantity Required: 1.0 Unit(s)</p>\n                <p>Priority: Emergency</p>\n                <p>Please click one of the actions below to respond immediately:</p>\n                \n            <div style='margin-top:20px;'>\n                <a href='http://localhost:8000/api/outreach/respond?request_id=req_1780710639&donor_id=\\x1d56448efd042d6eba8b3dba0eeea475a59f47a9a6c4b6f9dfd1a6f27ae3d011&action=accept' style='background:#b30000;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;margin-right:10px;'>ACCEPT</a>\n                <a href='http://localhost:8000/api/outreach/respond?request_id=req_1780710639&donor_id=\\x1d56448efd042d6eba8b3dba0eeea475a59f47a9a6c4b6f9dfd1a6f27ae3d011&action=decline' style='background:#555;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;'>DECLINE</a>\n            </div>\n        \n                <p style='margin-top:20px;font-size:12px;color:#777;'>BondOfLife DPDPA Secure Outreach. You can opt out at any time.</p>\n            </div>\n        ",
+    "body_text": "URGENT: Blood Donation Needed - BondOfLife",
+    "status": "SENT"
+  }
+]
