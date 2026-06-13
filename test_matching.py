@@ -8,30 +8,23 @@ from matching_engine import score_donors, haversine_distance, COMPATIBILITY_MAP
 client = TestClient(app)
 
 def test_haversine_distance():
-    # Hyderabad coordinates vs another Hyderabad point (near Central Mall)
-    # Approx 2km
     d = haversine_distance(17.3850, 78.4867, 17.4062, 78.4842)
     assert d > 0.0
     assert d < 5.0
     
-    # Distance to missing values should return 999.0
+    
     assert haversine_distance(None, 78.4867, 17.4062, 78.4842) == 999.0
 
 def test_blood_compatibility():
-    # O Positive can receive from O Positive and O Negative
     assert "O Positive" in COMPATIBILITY_MAP["O Positive"]
     assert "O Negative" in COMPATIBILITY_MAP["O Positive"]
     assert "A Positive" not in COMPATIBILITY_MAP["O Positive"]
-    
-    # AB Positive is universal recipient
     assert len(COMPATIBILITY_MAP["AB Positive"]) == 8
 
 def test_scoring_and_ranking():
-    # Seed must be run (happens automatically on startup)
     results = score_donors("O Positive", 17.3850, 78.4867)
     assert len(results) >= 0
     if len(results) > 0:
-        # Check sorting order
         for i in range(len(results) - 1):
             assert results[i]["final_score"] >= results[i+1]["final_score"]
 
